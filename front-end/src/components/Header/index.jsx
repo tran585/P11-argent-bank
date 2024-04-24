@@ -1,7 +1,6 @@
 import argentBankLogo from '../../assets/logo/argentBankLogo.png'
 import './style.css'
-
-
+import { Link } from 'react-router-dom'
 
 
 
@@ -18,10 +17,10 @@ const Header = () => {
                 <h1 className='sr-only'>Argent Bank</h1>
             </a>
             <div>
-                <a className="main-nav-item" href="./">
+                <Link className="main-nav-item" to={'sign-in'}>
                     <i className="fa fa-user-circle"></i>{" "}
                     Sign In
-                </a>
+                </Link>
             </div>
         </nav>
     )

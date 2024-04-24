@@ -1,15 +1,15 @@
-// import { useState } from 'react'
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Header from './components/Header'
-import Footer from './components/Footer'
+import { BrowserRouter as Router } from 'react-router-dom'
+import { Provider } from 'react-redux'
+import { store } from './store/store'
+import RoutesApp from './routes/Routes'
 
 function App() {
-
   return (
-    <>
-      <Header />
-      <Footer />
-    </>
+    <Provider store={store}>
+      <Router>
+        <RoutesApp />
+      </Router>
+    </Provider>
   )
 }
 
