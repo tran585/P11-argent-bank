@@ -1,7 +1,7 @@
 import { BrowserRouter as Router } from 'react-router-dom'
 import { Provider } from 'react-redux'
-import { store } from './store/store'
-import RoutesApp from './routes/Routes'
+import { store } from './redux'
+import RoutesApp from './routes/RoutesApp'
 
 function App() {
   return (

@@ -1,0 +1,7 @@
+export { default as Header } from './Header/Header'
+export { default as Footer } from './Footer/Footer'
+export { default as FieldGroup } from './FieldGroup/FieldGroup'
+export { default as Button } from './Button/Button'
+export { default as LinkNav } from './LinkNav/LinkNav'
+export { default as Main } from './Main/Main'
+export { default as Icon } from './Icons/icon'
