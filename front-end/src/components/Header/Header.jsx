@@ -22,7 +22,7 @@ const Header = () => {
             <LinkNav
               className={'main-nav-item'}
               nextLink={'/profile'}
-            ><Icon typeIcon='circle'/> {getDatasUser.firstName}</LinkNav>
+            ><Icon typeIcon='circle'/> {getDatasUser.userName}</LinkNav>
             <LinkNav
               className={'main-nav-item'}
               nextLink={'/'}
